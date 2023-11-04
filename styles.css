@@ -1,0 +1,53 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 400px; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 38px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+
+
+    @media (max-width: 375px) {
+        .card {
+            margin: 16px;
+        }
+    }
